@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Machine Test</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-8 offset-2">
+            <h5  class="bg-primary text-white p-2 text-center">Table 1 - Planets</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>planetName</th>
+                        <th>distanceFromSunKm</th>
+                        <th>diameterKm</th>
+                        <th>hasRings</th>
+                        <th>numberOfMoons</th>
+                    </tr>
+                </thead>
+                <tbody id="table01">
+                </tbody>
+            </table>
+
+<!-- table 2 -->
+            <h5 class="bg-secondary text-white p-2 text-center">Table 2 - mountains</h5>
+            <table class="table">
+              <thead class="table table-striped table-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>mountainName</th>
+                        <th>heightMeters</th>
+                        <th>locationContinent</th>
+                        <th>firstAscentYear</th>
+                        <th>isVolcano</th>
+                    </tr>
+                </thead>
+                <tbody id="table02">
+                </tbody>
+            </table>
+
+
+<!-- table-3 -->
+            <h5 class="bg-success text-white p-2 text-center">Table 3 - universities</h5>
+            <table class="table">
+              <thead class="table table-bordered">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>uniName</th>
+                        <th>foundedYear</th>
+                        <th>countryLocated</th>
+                        <th>studentCount</th>
+                        <th>worldRanking</th>
+                    </tr>
+                </thead>
+                <tbody id="table03">
+                </tbody>
+            </table>
+
+
+            <!-- table-4 -->
+            <h5 class="bg-warning text-white p-2 text-center">Table 4 - animals</h5>
+            <table class="table">
+              <thead class="table table-bordered">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>species</th>
+                        <th>averageWeightKg</th>
+                        <th>habitatType</th>
+                        <th>lifespanYears</th>
+                        <th>endangeredStatus</th>
+                    </tr>
+                </thead>
+                <tbody id="table04">
+                </tbody>
+            </table>
+
+            <!-- table-5 -->
+            <h5 class="bg-dark text-white p-2 text-center">Table 5 - Apps</h5>
+            <table class="table">
+              <thead class="table table-bordered">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>appName</th>
+                        <th>categoryType</th>
+                        <th>downloadsMillion</th>
+                        <th>developerCompany</th>
+                        <th>subscriptionRequired</th>
+                    </tr>
+                </thead>
+                <tbody id="table05">
+                </tbody>
+            </table>
+
+<!-- table-6 -->
+            <h5 class="bg-dark text-white p-2 text-center">Table 6 - continents</h5>
+            <table class="table">
+              <thead class="table table-bordered">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>continentLabel</th>
+                        <th>surfaceAreaMillionSqKm</th>
+                        <th>countriesCount</th>
+                        <th>populationBillion</th>
+                        <th>largestCountry</th>
+                    </tr>
+                </thead>
+                <tbody id="table06">
+                </tbody>
+            </table>
+<!-- table-7 -->
+            <h5 class="bg-secondary text-white p-2 text-center">Table 7 - desserts</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>dessertName</th>
+                        <th>sugarContentGrams</th>
+                        <th>servingTemp</th>
+                        <th>mainIngredient</th>
+                        <th>calorieCount</th>
+                    </tr>
+                </thead>
+                <tbody id="table07">
+                </tbody>
+            </table>
+
+
+<!-- table-8 -->
+            <h5 class="bg-success text-white p-2 text-center">Table 8 - oceans</h5>
+            <table class="table">
+              <thead class="table table-bordered">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>oceanTitle</th>
+                        <th>avgDepthMeters</th>
+                        <th>surfaceAreaMillionSqKm</th>
+                        <th>borderingContinents</th>
+                        <th>salinityPpt</th>
+                    </tr>
+                </thead>
+                <tbody id="table08">
+                </tbody>
+            </table>
+
+
+            <!-- table-9 -->
+            <h5 class="bg-warning text-white p-2 text-center">Table 9 - gadgets</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>gadgetLabel</th>
+                        <th>featuresCount</th>
+                        <th>batteryLifeHours</th>
+                        <th>connectivityType</th>
+                        <th>weightGrams</th>
+                    </tr>
+                </thead>
+                <tbody id="table09">
+                </tbody>
+            </table>
+
+            <!-- table-10 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 10 - gadgets</h5>
+            <table class="table">
+              <thead class="table table-bordered">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>landmarkLabel</th>
+                        <th>heightMeters</th>
+                        <th>visitorCountYearMillion</th>
+                        <th>countryLocation</th>
+                        <th>constructionYear</th>
+                    </tr>
+                </thead>
+                <tbody id="table10">
+                </tbody>
+            </table>
+
+<!-- table-11 -->
+            <h5 class="bg-primary text-white p-2 text-center">Table 11 - vehiclesModels</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>vehicleType</th>
+                        <th>maxSpeedKph</th>
+                        <th>fuelCapacityLiters</th>
+                        <th>wheelCount</th>
+                        <th>manufacturerLocation</th>
+                    </tr>
+                </thead>
+                <tbody id="table11">
+                </tbody>
+            </table>
+
+
+            <!-- table-12 -->
+            <h5 class="bg-danger text-white p-2 text-center">Table 12 - professions</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>professionName</th>
+                        <th>avgSalaryUSD</th>
+                        <th>yearsOfStudy</th>
+                        <th>riskLevel</th>
+                        <th>workEnvironment</th>
+                    </tr>
+                </thead>
+                <tbody id="table12">
+                </tbody>
+            </table>
+
+            <!-- table-13 -->
+            <h5 class="bg-active text-white p-2 text-center">Table 13 - beveragesMenu</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>beverageTitle</th>
+                        <th>caffeineMg</th>
+                        <th>servingSizeMl</th>
+                        <th>servedHot</th>
+                        <th>sugarContentG</th>
+                    </tr>
+                </thead>
+                <tbody id="table13">
+                </tbody>
+            </table>
+
+
+             <!-- table-14 -->
+            <h5 class="bg-secondary text-white p-2 text-center">Table 14 - flowers</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>flowerName</th>
+                        <th>petalCount</th>
+                        <th>fragranceLevel</th>
+                        <th>bloomingSeason</th>
+                        <th>stemLengthCm</th>
+                    </tr>
+                </thead>
+                <tbody id="table14">
+                </tbody>
+            </table>
+
+
+            <!-- table-15 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 15 - hotels</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>hotelLabel</th>
+                        <th>stars</th>
+                        <th>totalRooms</th>
+                        <th>poolAvailable</th>
+                        <th>cityLoc</th>
+                    </tr>
+                </thead>
+                <tbody id="table15">
+                </tbody>
+            </table>
+
+
+            <!-- table-16 -->
+            <h5 class="bg-primary text-white p-2 text-center">Table 16 - islands</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>islandLabel</th>
+                        <th>areaSqKm</th>
+                        <th>countryAdmin</th>
+                        <th>inhabited</th>
+                        <th>climateType</th>
+                    </tr>
+                </thead>
+                <tbody id="table16">
+                </tbody>
+            </table>
+
+            <!-- table-17 -->
+            <h5 class="bg-secondary text-white p-2 text-center">Table 17 - insects</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>insectName</th>
+                        <th>wingspanCm</th>
+                        <th>legsCount</th>
+                        <th>lifespanDays</th>
+                        <th>canFly</th>
+                    </tr>
+                </thead>
+                <tbody id="table17">
+                </tbody>
+            </table>
+
+            <!-- table-18 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 18 - festivals</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>festivalName</th>
+                        <th>monthObserved</th>
+                        <th>durationDays</th>
+                        <th>originCountry</th>
+                        <th>outdoorEvent</th>
+                    </tr>
+                </thead>
+                <tbody id="table18">
+                </tbody>
+            </table>
+
+            <!-- table-19 -->
+            <h5 class="bg-dark text-white p-2 text-center">Table 19 - rivers</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>riverLabel</th>
+                        <th>lengthKm</th>
+                        <th>flowsThroughCountries</th>
+                        <th>avgDepthM</th>
+                        <th>deltaExists</th>
+                    </tr>
+                </thead>
+                <tbody id="table19">
+                </tbody>
+            </table>
+
+
+     <!-- table-20 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 20 - spices </h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>spiceName</th>
+                        <th>colorHue</th>
+                        <th>originRegion</th>
+                        <th>pungencyLevel</th>
+                        <th>isPowdered</th>
+                    </tr>
+                </thead>
+                <tbody id="table20">
+                </tbody>
+            </table>
+
+            <!-- table-21 -->
+            <h5 class="bg-primary text-white p-2 text-center">Table 21 - Tools</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>toolName</th>
+                        <th>weightKg</th>
+                        <th>handleMaterial</th>
+                        <th>manualTool</th>
+                        <th>usageCategory</th>
+                    </tr>
+                </thead>
+                <tbody id="table21">
+                </tbody>
+            </table>
+
+            <!-- table-22 -->
+            <h5 class="bg-active text-white p-2 text-center">Table 22 - Minerals</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>mineralLabel</th>
+                        <th>hardnessMoh</th>
+                        <th>crystalSystem</th>
+                        <th>isMetallic</th>
+                        <th>marketPriceUSDkg</th>
+                    </tr>
+                </thead>
+                <tbody id="table22">
+                </tbody>
+            </table>
+
+
+            <!-- table-23 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 23 - plannetmoons</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>moonLabel</th>
+                        <th>orbitingPlanet</th>
+                        <th>diameterKm</th>
+                        <th>discoveredYear</th>
+                        <th>surfaceMaterial</th>
+                    </tr>
+                </thead>
+                <tbody id="table23">
+                </tbody>
+            </table>
+
+
+            <!-- table-24 -->
+            <h5 class="bg-success text-white p-2 text-center">Table 24 - MusicalBonds</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>bandLabel</th>
+                        <th>originCity</th>
+                        <th>formedYear</th>
+                        <th>genreStyle</th>
+                        <th>albumsCount</th>
+                    </tr>
+                </thead>
+                <tbody id="table24">
+                </tbody>
+            </table>
+
+
+            <!-- table-25 -->
+            <h5 class="bg-warning text-white p-2 text-center">Table 25 - citiesMetro</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>metroLabel</th>
+                        <th>trackLengthKm</th>
+                        <th>totalStations</th>
+                        <th>dailyRidershipMillion</th>
+                        <th>operatingSince</th>
+                    </tr>
+                </thead>
+                <tbody id="table25">
+                </tbody>
+            </table>
+
+<!-- table-26 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 26 - SciDiscoveries</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>discoveryLabel</th>
+                        <th>discoveredBy</th>
+                        <th>yearMade</th>
+                        <th>fieldArea</th>
+                        <th>impactLevel</th>
+                    </tr>
+                </thead>
+                <tbody id="table26">
+                </tbody>
+            </table>
+
+
+            <!-- table-27 -->
+            <h5 class="bg-success text-white p-2 text-center">Table 27 - nationalParks</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>parkLabel</th>
+                        <th>countryLocated</th>
+                        <th>establishedYear</th>
+                        <th>areaSqKm</th>
+                        <th>annualVisitorsMillion</th>
+                    </tr>
+                </thead>
+                <tbody id="table27">
+                </tbody>
+            </table>
+
+             <!-- table-28 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 28 - artpainting</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>paintingTitle</th>
+                        <th>artistName</th>
+                        <th> yearCreated</th>
+                        <th>styleType</th>
+                        <th>currentLocation</th>
+                    </tr>
+                </thead>
+                <tbody id="table28">
+                </tbody>
+            </table>
+
+             <!-- table-29 -->
+            <h5 class="bg-dark text-white p-2 text-center">Table 29 - historicalBattles</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>battleName</th>
+                        <th>battleYear</th>
+                        <th> mainCombatants</th>
+                        <th>outcome</th>
+                        <th>casualtiesApprox</th>
+                    </tr>
+                </thead>
+                <tbody id="table29">
+                </tbody>
+            </table>
+
+
+            <!-- table-30 -->
+            <h5 class="bg-primary text-white p-2 text-center">Table 30- Awards</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th> awardTitle</th>
+                        <th>categoryGiven</th>
+                        <th> established</th>
+                        <th>awardCountry</th>
+                        <th>frequencyYears</th>
+                    </tr>
+                </thead>
+                <tbody id="table30">
+                </tbody>
+            </table>
+
+
+            <!-- table-31 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 31- bridges</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>bridgeLabel</th>
+                        <th>lengthMeters</th>
+                        <th>countryLocated</th>
+                        <th>builtYear</th>
+                        <th>materialMain</th>
+                    </tr>
+                </thead>
+                <tbody id="table31">
+                </tbody>
+            </table>
+
+
+             <!-- table-32 -->
+            <h5 class="bg-dark text-white p-2 text-center">Table 32- paceTelescopes</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>telescopeName</th>
+                        <th>launchYear</th>
+                        <th>primaryMirrorM</th>
+                        <th>operatorAgency</th>
+                        <th>missionStatus</th>
+                    </tr>
+                </thead>
+                <tbody id="table32">
+                </tbody>
+            </table>
+            
+             <!-- table-33 -->
+            <h5 class="bg-light text-white p-2 text-center">Table 33- fashionBrands</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>brandLabel</th>
+                        <th>foundedYear</th>
+                        <th>originCountry</th>
+                        <th>productType</th>
+                        <th>annualRevenueBillionUSD</th>
+                    </tr>
+                </thead>
+                <tbody id="table33">
+                </tbody>
+            </table>
+
+             <!-- table-34 -->
+            <h5 class="bg-primary text-white p-2 text-center">Table 34- musicalInstrumentsPro</h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>instrumentName</th>
+                        <th> categoryFamily</th>
+                        <th> rangeOctaves</th>
+                        <th>madeOf</th>
+                        <th>originCentury</th>
+                    </tr>
+                </thead>
+                <tbody id="table34">
+                </tbody>
+            </table>
+
+
+            <!-- table-35 -->
+            <h5 class="bg-warning text-white p-2 text-center">Table 35-webBrowsers </h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>browserName</th>
+                        <th> developerOrg</th>
+                        <th>firstReleaseYear</th>
+                        <th> engineUsed</th>
+                        <th> platformSupport</th>
+                    </tr>
+                </thead>
+                <tbody id="table35">
+                </tbody>
+            </table>
+
+
+            <!-- table-36 -->
+            <h5 class="bg-success text-white p-2 text-center">Table 36- airlines </h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>airlineName</th>
+                        <th>foundedYear</th>
+                        <th>hubAirport</th>
+                        <th>fleetSize</th>
+                        <th> allianceMember</th>
+                    </tr>
+                </thead>
+                <tbody id="table36">
+                </tbody>
+            </table>
+
+
+     <!-- table-37 -->
+            <h5 class="bg-info text-white p-2 text-center">Table 37-volcanoes </h5>
+            <table class="table">
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>volcanoLabel</th>
+                        <th>heightMeters</th>
+                        <th>lastEruptionYear</th>
+                        <th>locationIsland</th>
+                        <th>volcanoType</th>
+                    </tr>
+                </thead>
+                <tbody id="table37">
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
